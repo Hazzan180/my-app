@@ -8,7 +8,6 @@
   body{
     background: #30143D;
     padding: 0 10px;
-    font-family: roboto;
   }
   .wrapper{
     max-width: 500px;
@@ -67,7 +66,4 @@
     color: #fff;
     font-size: 20px;
   }
-  @font-face {
-    font-family: roboto;
-    src: url(../public/Roboto-Black.ttf);
-  }
+  

@@ -1,7 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter} from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import "../Login/Login.style.css"
+import "../Login/Login.styles.css"
 
 const Login = () => {
   return (

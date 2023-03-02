@@ -3,8 +3,8 @@ import { Navbar } from "./components/navbar/Navbar.component";
 import { Routes, Route } from "react-router-dom";
 import { ExploreMusic } from "./Routes/ExploreMusic/ExploreMusic.route";
 import { Dashboard } from "./Routes/Dasboard/Dashboard.route";
-import {Login} from "./Routes/Login/Login.route";
-import {Singup} from "./Routes/Singup/Singup.route";
+import Login from "./Routes/Login/Login.route";
+import Singup from "./Routes/Singup/Singup.route";
 
 function App() {
   return (
