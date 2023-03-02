@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  body{
+    background: #30143D;
+    padding: 0 10px;
+    font-family: roboto;
+  }
+  .wrapper{
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 30px;
+  }
+  .wrapper .title {
+    margin-bottom: 25px;
+  }
+  .wrapper .title h1{
+    font-size: 35px;
+    color: #fff;
+  }
+  .wrapper .title p {
+    color: #fff;
+    font-size: 15px;
+  }
+  .wrapper .form {
+    width: 100%;
+  }
+  .wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .form .input_field label{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .wrapper .form .input_field input{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .wrapper .form .button button{
+    width: 100%;
+    padding: 20px;
+    background-color: #5EBB3B;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .wrapper .form .others p{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .wrapper .form .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+  }
+  @font-face {
+    font-family: roboto;
+    src: url(../public/Roboto-Black.ttf);
+  }

@@ -65,11 +65,20 @@ export const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/listen-now"
+                to="/login"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="link"
               >
-                <Play />
+                Login
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/singup"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                className="link"
+              >
+               singup
               </NavLink>
             </li>
           </ul>
@@ -156,14 +165,23 @@ export const NavDropDown = ({ handleClick }) => {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to="/listen-now"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            className="link"
-          >
-            <Play />
-          </NavLink>
-        </li>
+              <NavLink
+                to="/login"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                className="link"
+              >
+                Login
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/singup"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                className="link"
+              >
+               singup
+              </NavLink>
+            </li>
       </ul>
     </div>
   );
