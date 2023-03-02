@@ -47,7 +47,7 @@ export const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/https://docs.google.com/forms/d/e/1FAIpQLSfXvPi0c2XdZ5XgHmnji8xxJEiD9lBLaE3qIsbmH76HNWlilA/viewform"
+                to="https://docs.google.com/forms/d/e/1FAIpQLSfXvPi0c2XdZ5XgHmnji8xxJEiD9lBLaE3qIsbmH76HNWlilA/viewform"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="link"
               >
@@ -56,7 +56,7 @@ export const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/https://docs.google.com/forms/d/e/1FAIpQLScZOn5cgbAX6MPjvJTRCs1_CrVJzGReRHdb1PPqXUEMmof7ZA/viewform?usp=sf_link"
+                to="https://docs.google.com/forms/d/e/1FAIpQLScZOn5cgbAX6MPjvJTRCs1_CrVJzGReRHdb1PPqXUEMmof7ZA/viewform?usp=sf_link"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="link"
               >
@@ -148,7 +148,7 @@ export const NavDropDown = ({ handleClick }) => {
         </li>
         <li>
           <NavLink
-            to="/https://docs.google.com/forms/d/e/1FAIpQLSfXvPi0c2XdZ5XgHmnji8xxJEiD9lBLaE3qIsbmH76HNWlilA/viewform"
+            to="https://docs.google.com/forms/d/e/1FAIpQLSfXvPi0c2XdZ5XgHmnji8xxJEiD9lBLaE3qIsbmH76HNWlilA/viewform"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
             className="link"
           >
@@ -157,7 +157,7 @@ export const NavDropDown = ({ handleClick }) => {
         </li>
         <li>
           <NavLink
-            to="/https://docs.google.com/forms/d/e/1FAIpQLScZOn5cgbAX6MPjvJTRCs1_CrVJzGReRHdb1PPqXUEMmof7ZA/viewform?usp=sf_link"
+            to="https://docs.google.com/forms/d/e/1FAIpQLScZOn5cgbAX6MPjvJTRCs1_CrVJzGReRHdb1PPqXUEMmof7ZA/viewform?usp=sf_link"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
             className="link"
           >
