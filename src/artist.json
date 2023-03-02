@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lola",
+    "name": "Lola",
+    "location": ["Lagos", "Abuja", "Kano", "Jos"],
+    "spotlight": [
+      "/images/9jastar /head.jpg",
+      "/images/9jastar /9ja5.jpg",
+      "/images/9jastar /9ja9.jpg",
+      "/images/9jastar /head.jpg"
+    ],
+    "listens": 2000,
+    "mainImage": "/images/9jastar /9ja3.jpg",
+    "currentListens": 200
+  },
+  {
+    "id": "Janeme",
+    "name": "Janeme",
+    "location": ["Lagos", "Abuja", "Kano", "Jos"],
+    "spotlight": [
+      "/images/9jastar/9ja8.jpg",
+      "/images/9jastar/9ja9.jpg",
+      "/images/9jastar/9ja.jpg",
+      "/images/9jastar/9ja2.jpg"
+    ],
+    "listens": 3000,
+    "mainImage": "/images/9jastar /9ja5.jpg",
+    "currentListens": 500
+  },
+  {
+    "id": "Yvonne",
+    "name": "Yvonne",
+    "location": ["Lagos", "Abuja", "Kano", "Jos"],
+    "spotlight": [
+      "/images/9jastar/910.jpg",
+      "/images/9jastar/913.jpg",
+      "/images/9jastar/915.jpg",
+      "/images/9jastar/916.jpg"
+    ],
+    "listens": 350,
+    "mainImage": "/images/9jastar /911.jpg",
+    "currentListens": 200000
+  },
+  {
+    "id": "Starr",
+    "name": "Starr",
+    "location": ["Lagos", "Abuja", "Kano", "Jos"],
+    "spotlight": [
+      "/images/9jastar/9ja5.jpg",
+      "/images/9jastar/9ja3.jpg",
+      "/images/9jastar/9ja4.jpg",
+      "/images/9jastar/9ja7.jpg"
+    ],
+    "listens": 24500,
+    "mainImage": "/images/9jastar /915.jpg",
+    "currentListens": 45500
+  }
+]

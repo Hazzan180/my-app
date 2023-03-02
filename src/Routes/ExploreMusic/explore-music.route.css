@@ -1,0 +1,14 @@
+.header-img-container {
+  display: grid;
+  place-items: center;
+}
+.explore-music-container img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 10% 50%;
+}
+.explore-music-header {
+  padding: 20px;
+  color: var(--white);
+}
